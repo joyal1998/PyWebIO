@@ -1,0 +1,9 @@
+`popup()` as decorator
+
+@popup('Popup title')
+def show_popup():
+    put_html('<h3>Popup Content</h3>')
+    put_text("I'm in a popup!")
+    ...
+
+show_popup()
